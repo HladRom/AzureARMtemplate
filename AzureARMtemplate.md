@@ -4,6 +4,7 @@
 *Create an ARM template to automatically create resources on Azure resource group,service backup copy.
 Service backup copy*
 ## **template**
+```python
 `{`
  `   "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",`
   `  "contentVersion": "1.0.0.0",`
@@ -64,9 +65,10 @@ Service backup copy*
   `      }`
  `   }`
 `}`
+```
 
 ## **parameters**
-
+```python
 `{`
  ` "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",`
   `"contentVersion": "1.0.0.0",`
@@ -82,11 +84,13 @@ Service backup copy*
    ` }`
   `}`
 `}`
+```
 ___
 :rocket: ### **Resources on Azure resource group** :rocket:
 ___
 ## **template**
 
+```python
 `{`
     `"$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",`
     `"contentVersion": "1.0.0.0",`
@@ -149,8 +153,10 @@ ___
   `      }`
  `   ]`
 `}`
+```
 
 ## **parameters**
+```python
 
 `{`
  ` "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",`
@@ -170,3 +176,4 @@ ___
   `  }`
  ` }`
 `}`
+```
