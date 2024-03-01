@@ -83,7 +83,7 @@ Service backup copy*
   }
 }
 ___
-### **Resources on Azure resource group**
+:rocket: ### **Resources on Azure resource group** :rocket:
 ___
 ## **template**
 
