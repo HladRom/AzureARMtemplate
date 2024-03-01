@@ -4,36 +4,36 @@
 *Create an ARM template to automatically create resources on Azure resource group,service backup copy.
 Service backup copy*
 ## **template**
-{
-    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
-    "contentVersion": "1.0.0.0",
-    "parameters": {
-        "storageAccountType": {
-            "defaultValue": "Standard_LRS",
-            "allowedValues": [
-                "Premium_LRS",
-                "Premium_ZRS",
-                "Standard_GRS",
-                "Standard_GZRS",
-                "Standard_LRS",
-                "Standard_RAGRS",
-                "Standard_RAGZRS",
-                "Standard_ZRS"
-            ],
-            "type": "String",
-            "metadata": {
-                "description": "Storage Account type"
-            }
-        },
-        "location": {
-            "defaultValue": "[resourceGroup().location]",
-            "type": "String",
-            "metadata": {
-                "description": "The storage account location."
-            }
-        },
-        "storageAccountName": {
-            "defaultValue": "[format('store{0}', uniqueString(resourceGroup().id))]",
+`{`
+ `   "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",`
+  `  "contentVersion": "1.0.0.0",`
+   ` "parameters": {`
+    `    "storageAccountType": {`
+     `       "defaultValue": "Standard_LRS",`
+      `      "allowedValues": [`
+`                "Premium_LRS",`
+ `               "Premium_ZRS",`
+  `              "Standard_GRS",`
+   `             "Standard_GZRS",`
+    `            "Standard_LRS",`
+     `           "Standard_RAGRS",`
+      `          "Standard_RAGZRS",`
+       `         "Standard_ZRS"`
+        `    ],`
+         `   "type": "String",`
+          `  "metadata": {`
+           `     "description": "Storage Account type"`
+            `}`
+       ` },`
+        `"location": {
+         `   "defaultValue": "[resourceGroup().location]",
+          `  "type": "String",
+           ` "metadata": {
+            `    "description": "The storage account location."
+            `}
+        `},
+        `"storageAccountName": {
+            `"defaultValue": "[format('store{0}', uniqueString(resourceGroup().id))]",
             "type": "String",
             "metadata": {
                 "description": "The name of the storage account"
