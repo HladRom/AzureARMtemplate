@@ -1,16 +1,16 @@
-Setting Up and Using the Project for Automated Virtual Machine Backup with Azure Backup
-Project Overview:
+# **Setting Up and Using the Project for Automated Virtual Machine Backup with Azure Backup
+Project Overview:**
 
-This project demonstrates the process of automating the backup of virtual machines (VMs) on the Azure platform using Azure Backup service. You will create and configure a backup plan that regularly creates copies of data from your virtual machine and stores them in a secure vault on Azure.
+*This project demonstrates the process of automating the backup of virtual machines (VMs) on the Azure platform using Azure Backup service. You will create and configure a backup plan that regularly creates copies of data from your virtual machine and stores them in a secure vault on Azure.*
 
-Technologies:
+## **Technologies:**
 
     Azure Backup
     Azure Resource Manager (ARM) templates
     PowerShell or Azure CLI
     GitHub
 
-Steps to Create the Project:
+*Steps to Create the Project:*:star::star::star::star::star:
 
     Creating Resources on Azure:
         Create a resource group on Azure for your project.
