@@ -1,9 +1,9 @@
-  # AzureARMtemplate
+  # **AzureARMtemplate**
   
-Automation using ARM templates
-Create an ARM template to automatically create resources on Azure resource group,service backup copy.
+###Automation using ARM templates
+*Create an ARM template to automatically create resources on Azure resource group,service backup copy.*
 Service backup copy
-## template
+## **template**
 {
     "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
     "contentVersion": "1.0.0.0",
@@ -65,7 +65,7 @@ Service backup copy
     }
 }
 
-## parameters
+## **parameters**
 
 {
   "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
@@ -83,9 +83,9 @@ Service backup copy
   }
 }
 ___
-### Resources on Azure resource group
+### **Resources on Azure resource group**
 ___
-## template
+## **template**
 
 {
     "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
@@ -150,7 +150,7 @@ ___
     ]
 }
 
-## parameters
+## **parameters**
 
 {
   "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
