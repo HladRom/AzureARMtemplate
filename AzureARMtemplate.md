@@ -33,7 +33,7 @@ Service backup copy*
             `}`
         `},`
         `"storageAccountName": {`
-          `  `"defaultValue": "[format('store{0}', uniqueString(resourceGroup().id))]",`
+          `  "defaultValue": "[format('store{0}', uniqueString(resourceGroup().id))]",`
          `   "type": "String",`
         `    "metadata": {`
        `         "description": "The name of the storage account"`
