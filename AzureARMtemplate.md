@@ -82,8 +82,9 @@ Service backup copy
     }
   }
 }
-
-### Resources on Azure resource group<---------------------------------------------------------------------------------------------------------------------
+___
+### Resources on Azure resource group
+___
 ## template
 
 {
