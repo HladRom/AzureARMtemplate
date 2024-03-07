@@ -8,13 +8,13 @@ The main goal of this project is to create and configure a backup plan for virtu
 ## Project Overview
 This project includes the following stages:
 
-Azure Environment Setup: Creating necessary resources in the Azure platform, including virtual machines, storage, and other essential components.
+- Azure Environment Setup: Creating necessary resources in the Azure platform, including virtual machines, storage, and other essential components.
 
-Azure Backup Service Installation: Setting up and activating the Azure Backup service within the Azure account.
+- Azure Backup Service Installation: Setting up and activating the Azure Backup service within the Azure account.
 
-Backup Plan Creation and Configuration: Creating a backup plan for virtual machines, selecting backup frequency, defining data retention policies, etc.
+- Backup Plan Creation and Configuration: Creating a backup plan for virtual machines, selecting backup frequency, defining data retention policies, etc.
 
-Testing and Verification: Checking the correctness of configurations, performing a test backup, and verifying the ability to restore data from backup copies.
+- Testing and Verification: Checking the correctness of configurations, performing a test backup, and verifying the ability to restore data from backup copies.
 
 ## Conclusion
 Automating the backup of virtual machines on the Azure platform is a crucial step in ensuring data security and availability in the cloud environment. This project allows efficient management of the backup process, providing reliable protection against data loss and quick data recovery when needed. Utilizing the Azure Backup service simplifies backup processes and enables focus on strategic data management tasks.
