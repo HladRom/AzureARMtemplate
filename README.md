@@ -16,6 +16,7 @@ This project includes the following stages:
 
 - Testing and Verification: Checking the correctness of configurations, performing a test backup, and verifying the ability to restore data from backup copies.
 
+
 ## Conclusion
 Automating the backup of virtual machines on the Azure platform is a crucial step in ensuring data security and availability in the cloud environment. This project allows efficient management of the backup process, providing reliable protection against data loss and quick data recovery when needed. Utilizing the Azure Backup service simplifies backup processes and enables focus on strategic data management tasks.
 ![azure](https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Microsoft_Azure.svg/1200px-Microsoft_Azure.svg.png)
