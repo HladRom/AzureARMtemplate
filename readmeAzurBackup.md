@@ -3,14 +3,18 @@ Project Overview:
 
 *This project demonstrates the process of automating the backup of virtual machines (VMs) on the Azure platform using Azure Backup service. You will create and configure a backup plan that regularly creates copies of data from your virtual machine and stores them in a secure vault on Azure.*
 
+
 ## **Technologies:**
+
 
     Azure Backup
     Azure Resource Manager (ARM) templates
     PowerShell or Azure CLI
     GitHub
 
+
 *Steps to Create the Project:*:star::star::star::star::star:
+
 
     Creating Resources on Azure:
         Create a resource group on Azure for your project.
@@ -28,5 +32,6 @@ Project Overview:
         Save your ARM template in a GitHub repository.
         Use PowerShell or Azure CLI to deploy your project using the ARM template.
         Verify the successful deployment and configuration of the backup.
+
 
 This provides a basic outline of the steps to create and use the project for automated virtual machine backup on Azure using Azure Backup. For more detailed instructions, refer to the official Azure documentation as well as documentation on ARM templates and working with PowerShell or Azure CLI.
