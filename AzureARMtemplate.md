@@ -1,5 +1,4 @@
   # **AzureARMtemplate**
-
   
 ### Automation using ARM templates
 *Create an ARM template to automatically create resources on Azure resource group,service backup copy.
