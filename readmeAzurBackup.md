@@ -10,7 +10,6 @@ Project Overview:
     PowerShell or Azure CLI
     GitHub
 
-
 *Steps to Create the Project:*:star::star::star::star::star:
 
     Creating Resources on Azure:
