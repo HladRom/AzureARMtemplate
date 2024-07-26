@@ -3,7 +3,6 @@ Project Overview:
 
 *This project demonstrates the process of automating the backup of virtual machines (VMs) on the Azure platform using Azure Backup service. You will create and configure a backup plan that regularly creates copies of data from your virtual machine and stores them in a secure vault on Azure.*
 
-
 ## **Technologies:**
 
     Azure Backup
