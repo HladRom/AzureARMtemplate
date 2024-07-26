@@ -6,7 +6,6 @@ Project Overview:
 
 ## **Technologies:**
 
-
     Azure Backup
     Azure Resource Manager (ARM) templates
     PowerShell or Azure CLI
