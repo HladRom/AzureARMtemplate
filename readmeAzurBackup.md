@@ -14,7 +14,6 @@ Project Overview:
 
 *Steps to Create the Project:*:star::star::star::star::star:
 
-
     Creating Resources on Azure:
         Create a resource group on Azure for your project.
         Create a virtual machine (VM) that you intend to backup.
