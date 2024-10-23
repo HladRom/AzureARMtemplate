@@ -3,7 +3,6 @@
 
 
 
-
 ## Introduction
 This project aims to automate the process of backing up virtual machines on the Azure platform using Azure Backup service. Regularly creating and storing data backups is a critical aspect of ensuring information security and availability. This project provides the ability to configure automatic backup of data from virtual machines and store them in a secure repository on the Azure platform.
 
